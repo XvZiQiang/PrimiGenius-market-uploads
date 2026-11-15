@@ -1,1 +1,45 @@
-{"primigenius_market_uploads":1}
+{
+  "primigenius_market_uploads": 1,
+  "submissions": {
+    "submission-871af9edacd0109fa959aec519991f45": {
+      "schema": 1,
+      "plugin_id": "community_242235968_sra_data_download_high_speed_auto",
+      "original_id": "sra_data_download_high_speed_auto",
+      "version": "2.0.0",
+      "metadata": {
+        "name": {
+          "en": "SRA High-Speed Download (Auto Layout)",
+          "zh": "SRA 高速下载（自动单双端）"
+        },
+        "description": {
+          "en": "Downloads full-quality SRA objects from the official NCBI AWS public bucket with resumable ranges, automatically detects SINGLE or PAIRED layout per accession, and creates verified FASTQ files with fasterq-dump and pigz. The bundled offline runtime builds locally on first use without a public container registry.",
+          "zh": "从 NCBI 官方 AWS 公共桶分片高速下载完整质量 SRA，逐个 accession 自动识别单端或双端，再用 fasterq-dump 与 pigz 生成并校验 FASTQ。插件自带离线运行环境，首次运行本地构建镜像，不依赖公共镜像站。"
+        },
+        "type": "cli"
+      },
+      "owner": {
+        "id": 242235968,
+        "login": "XvZiQiang"
+      },
+      "submitted_by": {
+        "id": 242235968,
+        "login": "XvZiQiang"
+      },
+      "changelog": "从 NCBI 官方 AWS 公共桶分片高速下载完整质量 SRA，逐个 accession 自动识别单端或双端，再用 fasterq-dump 与 pigz 生成并校验 FASTQ。插件自带离线运行环境，首次运行本地构建镜像，不依赖公共镜像站。",
+      "sha256": "1bbbc68256846ed4c7d73d09ae73be5d47c7ea9eda424e3af0022b63549eb0ca",
+      "size": 48796431,
+      "source": {
+        "repository": "XvZiQiang/PrimiGenius-market-uploads",
+        "release_id": 445934977,
+        "asset_id": 750451243,
+        "sha256": "1bbbc68256846ed4c7d73d09ae73be5d47c7ea9eda424e3af0022b63549eb0ca"
+      },
+      "tag": "submission-871af9edacd0109fa959aec519991f45",
+      "review": {
+        "issue": 14,
+        "url": "https://github.com/jianbai-design/PrimiGenius-community-plugins/issues/14"
+      },
+      "submitted_at": "2026-10-26T09:14:09Z"
+    }
+  }
+}
