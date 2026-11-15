@@ -80,6 +80,46 @@
         "url": "https://github.com/jianbai-design/PrimiGenius-community-plugins/issues/15"
       },
       "submitted_at": "2026-11-15T09:14:26Z"
+    },
+    "submission-2e29553e750b61e0dcc8c4adfce990e8": {
+      "schema": 1,
+      "plugin_id": "community_242235968_sra_data_download_high_speed_auto",
+      "original_id": "sra_data_download_high_speed_auto",
+      "version": "2.0.0",
+      "metadata": {
+        "name": {
+          "en": "SRA High-Speed Download (Auto Layout)",
+          "zh": "SRA 高速下载（自动单双端）"
+        },
+        "description": {
+          "en": "Downloads full-quality SRA objects from the official NCBI AWS public bucket with resumable ranges, automatically detects SINGLE or PAIRED layout per accession, and creates verified FASTQ files with fasterq-dump and pigz. The bundled offline runtime builds locally on first use without a public container registry.",
+          "zh": "从 NCBI 官方 AWS 公共桶分片高速下载完整质量 SRA，逐个 accession 自动识别单端或双端，再用 fasterq-dump 与 pigz 生成并校验 FASTQ。插件自带离线运行环境，首次运行本地构建镜像，不依赖公共镜像站。"
+        },
+        "type": "cli"
+      },
+      "owner": {
+        "id": 242235968,
+        "login": "XvZiQiang"
+      },
+      "submitted_by": {
+        "id": 242235968,
+        "login": "XvZiQiang"
+      },
+      "changelog": "从 NCBI 官方 AWS 公共桶分片高速下载完整质量 SRA，逐个 accession 自动识别单端或双端，再用 fasterq-dump 与 pigz 生成并校验 FASTQ。插件自带离线运行环境，首次运行本地构建镜像，不依赖公共镜像站。",
+      "sha256": "19339eecabfa3ec11f3b85090db7f1ff7bee2981ec18a4d5b00f06bea7d16041",
+      "size": 48796431,
+      "source": {
+        "repository": "XvZiQiang/PrimiGenius-market-uploads",
+        "release_id": 446008238,
+        "asset_id": 750780554,
+        "sha256": "19339eecabfa3ec11f3b85090db7f1ff7bee2981ec18a4d5b00f06bea7d16041"
+      },
+      "tag": "submission-2e29553e750b61e0dcc8c4adfce990e8",
+      "review": {
+        "issue": 16,
+        "url": "https://github.com/jianbai-design/PrimiGenius-community-plugins/issues/16"
+      },
+      "submitted_at": "2026-11-15T09:36:55Z"
     }
   }
 }
